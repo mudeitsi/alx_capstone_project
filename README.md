@@ -23,7 +23,10 @@ WalletLogic is a simple yet powerful budget app designed to help users manage th
 
 ## Screenshots or Demo
 
-_Screenshots or live demo links will be updated soon._
+
+![WalletLogic screenshot2](https://github.com/mudeitsi/alx_capstone_project/assets/107103188/8052596d-e1d5-491a-a3fe-7ef4714ef329)
+
+
 
 ## Roadmap and Future Enhancements
 
