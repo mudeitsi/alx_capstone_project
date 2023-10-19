@@ -21,10 +21,17 @@ WalletLogic is a simple yet powerful budget app designed to help users manage th
 - JavaScript: For client-side scripting, DOM manipulation, and interactivity.
 - Local Storage API: For saving transaction data in the browser.
 
-## Screenshots or Demo
+## Screenshots and Demo
 
-
+![WalletLogic screenshot1](https://github.com/mudeitsi/alx_capstone_project/assets/107103188/1a72be05-4bdd-40c8-bb68-7f6667b3b68f)
 ![WalletLogic screenshot2](https://github.com/mudeitsi/alx_capstone_project/assets/107103188/8052596d-e1d5-491a-a3fe-7ef4714ef329)
+![WalletLogic screenshot3](https://github.com/mudeitsi/alx_capstone_project/assets/107103188/261d7d53-d063-4e73-a9c4-aeeff9dfbd96)
+![WalletLogic screenshot4](https://github.com/mudeitsi/alx_capstone_project/assets/107103188/0ffbf09f-178d-47c0-bd42-93eed9f7f2e4)
+
+
+https://github.com/mudeitsi/alx_capstone_project/assets/107103188/4708ab57-b9f1-44ef-9d47-23b574d52642
+
+
 
 
 
