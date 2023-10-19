@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata for charset and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking the stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Linking the Font Awesome library for icons -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Setting the title for the browser tab -->
+    <title>WalletLogic - Budget App</title>
+  </head>
+  <body>
+    <!-- Main container for the app -->
+    <div class="container">
+      <!-- Element for displaying error messages -->
+      <p id="error_msg"></p>
+
+      <!-- Title section -->
+      <div class="title">
+        <h1 class="title">
+          WalletLogic <a href="#"><i class="fa fa-money"></i></a>
+        </h1>
+        <p>Budget App</p>
+      </div>
+
+      <!-- Form to add a new entry -->
+      <h3>New Transaction</h3>
+      <form id="form">
+        <div class="form-control">
+          <label for="text">Transaction Name</label>
+          <input
+            type="text"
+            id="text"
+            onfocus="this.value=''"
+            placeholder="Enter text..."
+          />
+        </div>
+        <div class="form-control">
+          <label for="amount">Amount(+/-) <br /> </label>
+          <input
+            type="number"
+            id="amount"
+            onfocus="this.value=''"
+            placeholder="Enter value..."
+          />
+        </div>
+        <!-- Button to add transaction -->
+        <button class="btn">Add transaction</button>
+      </form>
+      <br />
+
+      <!-- Section to display income, expense, and balance -->
+      <div class="income-expense">
+        <div class="bg-dark">
+          <h4>Income</h4>
+          <p class="income" id="income">$0.00</p>
+        </div>
+        <div class="bg-dark">
+          <h4>Expenditure</h4>
+          <p class="expense" id="expense">$0.00</p>
+        </div>
+        <div class="bg-dark">
+          <h4>Balance</h4>
+          <p id="balance">$0.00</p>
+        </div>
+      </div>
+
+      <!-- Section to display history of transactions -->
+      <h3>All Transactions</h3>
+      <ul id="list" class="list"></ul>
+
+      <!-- Footer section with developer social links -->
+      <footer>
+        &copy; 2023 Designed by Minayo Esere.
+        <a href="https://www.linkedin.com/in/minayo-esere/">LinkedIn</a> |
+        <a href="https://github.com/mudeitsi">Github</a>
+      </footer>
+    </div>
+
+    <!-- Linking the JavaScript file for the app logic -->
+    <script src="app.js"></script>
+  </body>
+</html>
+

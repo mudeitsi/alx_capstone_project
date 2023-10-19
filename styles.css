@@ -1,0 +1,175 @@
+/* Import Raleway font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+/* General styling to affect all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(150, 167, 184);
+}
+
+/* Title styling */
+.title {
+  background-color: silver;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+/* Container styling */
+.container {
+  padding: 30px 40px;
+  border-radius: 1rem;
+  border: 3px solid white;
+  margin: 25px;
+  background-color: rgba(180, 142, 160, 0.89);
+}
+
+/* Heading 1 styling */
+h1 {
+  letter-spacing: 2px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+/* Heading 3 styling */
+h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: azure;
+}
+
+/* Heading 4 styling */
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+  color: azure;
+}
+
+/* Balance text styling */
+#balance {
+  color: azure;
+}
+
+/* Income, Expense and Balance section styling */
+.income-expense {
+  background-color: rgb(181, 228, 247);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 5px 6px rgba(58, 73, 80, 0.685), 0 5px 6px rgba(58, 73, 80, 0.685);
+}
+
+/* Inner divs of income-expense styling */
+.income-expense > div {
+  flex: 1;
+  text-align: center;
+}
+
+/* Income, Expense and Balance value styling */
+.income, .expense, #balance {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 5px 0;
+  font-weight: bolder;
+}
+
+/* Income color */
+.income {
+  color: rgb(255, 255, 255);
+}
+
+/* Expense color */
+.expense {
+  color: #fffcfb;
+}
+
+/* Balance color */
+#balance {
+  color: rgb(255, 255, 255);
+}
+
+/* Dark background styling for income, expense, and balance */
+.bg-dark {
+  background-color: black;
+  margin: 0 2px;
+  border-radius: 3px;
+}
+
+/* Text input and Number input styling */
+input[type="text"], input[type="number"] {
+  border: 1px solid silver;
+  border-radius: 1rem;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 1px 2px 1px #000000;
+}
+
+/* Label styling */
+label {
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+/* Button styling */
+.btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 8px 0;
+  border-radius: 1rem;
+  outline: none;
+  background-color: steelblue;
+  color: whitesmoke;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* Button hover effect */
+.btn:hover {
+  color: steelblue;
+  background-color: whitesmoke;
+}
+
+/* Error message styling */
+#error_msg {
+  color: red;
+  background-color: rgb(224, 189, 183);
+  font-weight: bolder;
+  padding: 0 10px;
+  border-radius: 1rem;
+}
+
+/* Transaction list styling */
+.list {
+  color: azure;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+/* Footer link styling */
+footer a {
+  color: rgba(110, 147, 177, 0.952);
+}
+
