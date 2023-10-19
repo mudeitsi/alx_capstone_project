@@ -1,1 +1,89 @@
+### Introduction
+
+The WalletLogic Budget App is designed to help individuals keep track of their financial transactions by providing a simple and intuitive interface for logging income and expenses. The application aims to offer valuable insights into one's spending and saving habits, thereby aiding in better financial management.
+
+---
+
+### Features and Functionality
+
+- **Simple User Interface**: Easy-to-understand interface for quick navigation and operation.
+  
+- **Transaction Logging**: Add income or expense transactions with descriptive text.
+  
+- **Real-Time Update**: Instant updates to the balance, income, and expense summaries upon adding or removing transactions.
+  
+- **Transaction History**: A list of all past transactions, color-coded for income and expenses.
+  
+- **Data Persistence**: Transactions are saved locally in the web browser, retaining the data between sessions.
+  
+- **Error Handling**: Proper validation and error messages for incomplete or incorrect input.
+  
+---
+
+### Installation and Setup
+
+1. Clone the repository from GitHub.
+2. Open the `index.html` file in a web browser.
+
+The app is now ready to use. No additional setup or installation is required.
+
+---
+
+### Technologies Used
+
+- HTML: Structure of the web pages.
+- CSS: Styling and layout.
+- JavaScript: Client-side scripting for interactive features.
+- Local Storage: For storing transaction data in the web browser.
+
+---
+
+### Code Structure
+
+- `index.html`: Contains the main HTML structure.
+- `styles.css`: Houses all the CSS rules for styling the application.
+- `app.js`: Written in JavaScript, controls the application logic.
+
+The code is structured according to best practices and follows the PEP 8 style guide for Python components.
+
+---
+
+### Usage Guide
+
+1. Enter the description and amount for the new transaction in the provided fields.
+2. Click the "Add Transaction" button.
+3. View updated balance, income, and expense figures.
+4. To remove a transaction, click the "Delete" button next to the respective transaction in the transaction history.
+
+For detailed workflow, please refer to the Workflow section.
+
+---
+
+### Screenshots
+
+(Insert Screenshots here or link to a live demo)
+
+---
+
+### Future Enhancements
+
+- Cloud synchronization for accessing data across multiple devices.
+- Categorization of transactions for better financial tracking.
+- Implementing charts or graphs for visual analytics.
+
+---
+
+### Contact Information
+
+For any queries, suggestions, or contributions, please contact:
+
+**Minayo Esere**
+- LinkedIn: [https://www.linkedin.com/in/minayo-esere/](https://www.linkedin.com/in/minayo-esere/)
+- Github: [https://github.com/mudeitsi](https://github.com/mudeitsi)
+
+---
+
+This documentation is intended to comprehensively understand the WalletLogic Budget App. Feel free to contribute to its development.
+
+Thank you for choosing WalletLogic Budget App for your financial management needs.
 
