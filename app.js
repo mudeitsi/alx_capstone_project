@@ -19,8 +19,8 @@ function addTransaction(e) {
 
   // Validate input fields
   if (text.value.trim() === "" || amount.value.trim() === "") {
-    document.getElementById("error_msg").innerHTML = "<span>Error: Please enter description and amount!</span>";
-    setTimeout(() => (document.getElementById("error_msg").innerHTML = ""), 5000);
+    document.getElementById("error_msg").innerHTML = "<span>Error: Please enter transaction description and amount</span>";
+    setTimeout(() => (document.getElementById("error_msg").innerHTML = ""), 3000);
   } else {
     // Create transaction object
     const transaction = {
